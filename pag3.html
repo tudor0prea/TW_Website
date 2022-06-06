@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <script src="proiect_script.js"></script>
     <link rel="stylesheet" href="general-style.css">
     <title>Automobile din prezent și viitor</title>
 </head>
@@ -40,7 +40,21 @@
     </section>
 
     
-       
+    <div id="like"> Numar de aprecieri: </div>
+    
+  
+    <li> <p id="demo"></p>
+
+        <button onclick="clearInterval(myVar)">Stop time</button>
+        
+        <script>
+        let myVar = setInterval(myTimer ,1000);
+        function myTimer() {
+          const d = new Date();
+          document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+        }
+        </script></li>
+
 
 <div class="footer">
         
@@ -58,3 +72,12 @@
     </p>
 </body>  
 </html>
+
+<script>    
+     
+        let vari = setInterval(Timer, 1000);
+        function Timer() {
+          const d = new Date();
+          document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+        }
+    </script>

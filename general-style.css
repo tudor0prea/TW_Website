@@ -117,6 +117,27 @@ body {
     object-fit: contain;
     
 }
+
+.like { padding-right: 35px;
+    font-size: 17px;
+    padding-left: 35px;
+    background: none;
+    color: rgb(70, 70, 70);
+   
+
+margin-left:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.story {
+    color: yellow;
+    size: 45px;   
+}
+
+.sublike {color: yellow;}
+
+.like { align-self: center;}
 @media (max-width: 990px) {
     .option {
         display: grid;
